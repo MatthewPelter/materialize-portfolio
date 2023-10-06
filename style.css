@@ -1,0 +1,290 @@
+.page-footer {
+  background: #4285f4 !important;
+}
+
+.staff .promo-caption {
+  font-size: 20px;
+  padding: 20px;
+}
+
+.staff img {
+  border-radius: 100px;
+}
+
+.staff .texty {
+  font-family: "Raleway";
+}
+
+.skins p {
+  padding: 20px;
+}
+
+.skins .col:hover img {
+  opacity: 0.5;
+  transition: 200ms all ease-in-out;
+}
+
+.skins .col img {
+  transition: 200ms all ease-in-out;
+  padding-top: 20px;
+}
+
+.skins .col {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skins img {
+  height: auto;
+  width: 400px;
+}
+
+.collapsible-body {
+  padding: 12px;
+  line-height: 1.8;
+}
+
+.line {
+  height: 2px;
+  background: #d0d0d0;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.about .row {
+  padding: 100px 0;
+}
+
+.staff .row {
+  padding: 100px 0;
+}
+
+.skins .row {
+  padding: 100px 0;
+}
+
+.opp .row {
+  padding: 100px 0;
+}
+
+section .header {
+  font-size: 35px;
+  border-left: 4px solid #4285f4;
+  padding: 0 0 0 10px;
+  margin-top: 50px;
+}
+
+.about .col:hover i {
+  color: #4285f4;
+  transition: 300ms all ease-in-out;
+}
+
+.about i {
+  font-size: 120px;
+  transition: 300ms all ease-in-out;
+  padding-bottom: 20px;
+}
+
+.about .texty {
+  line-height: 1.3;
+  font-family: "Raleway";
+}
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+
+.skateheader .Slogo {
+  float: left;
+  font-size: 20px;
+  color: white;
+  font-weight: 300;
+  padding: 25px 10px;
+  text-transform: capitalize;
+}
+
+.containers {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.mat .btn {
+  background: #fff;
+  color: black;
+}
+
+.mat .btn:hover {
+  background: #d6d6d6;
+}
+/* 4285f4 */
+.skateheader {
+  height: 630px;
+  background: linear-gradient(rgba(66, 133, 244, 0.5), rgba(0, 53, 98, 0.6)),
+    url(https://img.gta5-mods.com/q95/images/addon-dominator-police-templated/b9362f-GTA5%202015-09-04%2023-31-52-90.jpg);
+  background-position: center;
+}
+
+.skateNav {
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  transition: 300ms all ease-in-out;
+}
+
+.skateNav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: right;
+}
+
+.skateNav ul li {
+  display: inline-block;
+}
+
+.skateNav ul li a {
+  display: block;
+  color: #fff;
+  padding: 30px 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 200ms all ease-in-out;
+}
+
+.skateNav ul li a:hover {
+  border-color: white;
+  transition: 200ms all ease-in-out;
+}
+
+.skateheader .messageCenter {
+  text-align: center;
+  padding-top: 250px;
+}
+
+.skateheader .messageCenter h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 42px;
+}
+
+.skateheader .messageCenter .headercontent {
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #a1cbff;
+  font-family: "Raleway";
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  max-width: 850px;
+}
+
+.newback {
+  background: rgba(0, 0, 0, 0.5);
+  transition: 300ms all ease-in-out;
+}
+
+.mat .modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  background-color: #fafafa;
+  padding: 0;
+  max-height: 70%;
+  width: 55%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 2px;
+  will-change: top, opacity;
+}
+
+@media only screen and (max-width: 992px) {
+  .mat .modal {
+    width: 80%;
+  }
+}
+
+.mat .modal h1,
+.mat .modal h2,
+.mat .modal h3,
+.mat .modal h4 {
+  margin-top: 0;
+}
+
+.mat .modal .modal-content {
+  padding: 24px;
+}
+
+.mat .modal .modal-close {
+  cursor: pointer;
+}
+
+.mat .modal .modal-footer {
+  border-radius: 0 0 2px 2px;
+  background-color: #fafafa;
+  padding: 4px 6px;
+  height: 56px;
+  width: 100%;
+}
+
+.mat .modal .modal-footer .btn,
+.mat .modal .modal-footer .btn-large,
+.mat .modal .modal-footer .btn-flat {
+  float: right;
+  margin: 6px 0;
+}
+
+.mat .modal-overlay {
+  position: fixed;
+  z-index: 999;
+  top: -100px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 125%;
+  width: 100%;
+  background: #000;
+  display: none;
+  will-change: opacity;
+}
+
+.mat .modal.modal-fixed-footer {
+  padding: 0;
+  height: 70%;
+}
+
+.mat .modal.modal-fixed-footer .modal-content {
+  position: absolute;
+  height: calc(100% - 56px);
+  max-height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.mat .modal.modal-fixed-footer .modal-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 0;
+}
+
+.mat .modal.bottom-sheet {
+  top: auto;
+  bottom: -100%;
+  margin: 0;
+  width: 100%;
+  max-height: 45%;
+  border-radius: 0;
+  will-change: bottom, opacity;
+}
+
+.mat .modal {
+  box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.14),
+    0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+}
